@@ -3,7 +3,6 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import MainPage from "./components/MainPage";
-import CompanyDashboard from "./components/CompanyDashboard";
 import AssessmentQ from "./components/AssessmentQ";
 import CompanyDetail from "./components/CompanyDetail";
 
@@ -21,14 +20,18 @@ function App() {
         <MainPage />
       </div>
 
-      <BrowserRouter>
-        <Routes>
-          {/* <Route exact path="/" component={CompanyDashboard} /> */}
-          <Route path="/assessment" component={<AssessmentQ></AssessmentQ>} />
+      {/* <BrowserRouter>
+        <div>
+          <Route exact path="/" component={CompanyDashboard} />
+          <Route path="/assessment" component={AssessmentQ} />
           <Route path="/company/:id" component={CompanyDetail} />
           <Route path="/book" component={BookApointment} />
-        </Routes>
-      </BrowserRouter>
+        </div>
+      </BrowserRouter> */}
+      <div className="my-8">
+        <CompanyDashboard />
+        <AssessmentQ />
+      </div>
     </>
   );
 }
