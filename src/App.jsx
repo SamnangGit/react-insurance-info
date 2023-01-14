@@ -6,6 +6,7 @@ import MainPage from "./components/MainPage";
 import CompanyDashboard from "./components/CompanyDashboard";
 import AssessmentQ from "./components/AssessmentQ";
 import CompanyDetail from "./components/CompanyDetail";
+
 import BookApointment from "./components/BookApointment";
 
 import { BrowserRouter, Routes } from "react-router-dom";
@@ -28,6 +29,10 @@ function App() {
           <Route path="/book" component={BookApointment} />
         </div>
       </BrowserRouter> */}
+      <div className="my-8">
+        <CompanyDashboard />
+        <AssessmentQ />
+      </div>
     </>
   );
 }
