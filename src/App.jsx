@@ -8,6 +8,7 @@ import AssessmentQ from "./components/AssessmentQ";
 import CompanyCard from "./components/CompanyCard";
 // import BookAppointment from "./components/BookApointment";
 import CompanyDetail from "./components/CompanyDetail";
+import BookApointment from "./components/BookApointment";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ function App() {
       </div>
       {/* <BookAppointment /> */}
       <CompanyDetail />
+      <BookApointment />
     </>
   );
 }
