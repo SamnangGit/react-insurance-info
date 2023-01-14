@@ -5,10 +5,17 @@ import Navbar from "./components/Navbar";
 import MainPage from "./components/MainPage";
 import CompanyDashboard from "./components/CompanyDashboard";
 import AssessmentQ from "./components/AssessmentQ";
+
 import CompanyCard from "./components/CompanyCard";
-// import BookAppointment from "./components/BookApointment";
+import BookAppointment from "./components/BookApointment";
 import CompanyDetail from "./components/CompanyDetail";
+
 import BookApointment from "./components/BookApointment";
+
+import Detail from "./components/Detail";
+import Contact from "./components/BookApointment"
+
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,8 +28,15 @@ function App() {
       </div>
       <div className="my-8">
         <CompanyDashboard />
-        <AssessmentQ />
+        <AssessmentQ/>
+
         {/* <CompanyCard /> */}
+
+        {/* <Detail/> */}
+        <Contact />
+      </div>
+      <div>
+
       </div>
       {/* <BookAppointment /> */}
       <CompanyDetail />
