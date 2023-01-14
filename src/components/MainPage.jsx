@@ -3,7 +3,7 @@ import React from "react";
 function MainPage() {
   return (
     <div>
-      <div className="w-full mt-28 mx-8">
+      <div className="w-full mt-28">
         <h1 className="text-white font-Poppins font-extrabold text-5xl mx-auto w-1/2 tracking-wider text-center">
           We Ensure The Best Insurance Service
         </h1>

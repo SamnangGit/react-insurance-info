@@ -18,8 +18,8 @@ export default function BookApointment() {
         </p>
       </div>
       {/* <!-- book appointment form --> */}
-      <div class="ml-20">
-        <div class="relative ml-14 h-96 ">
+      <div>
+        <div class="relative h-96 ">
           {/* <!-- form image --> */}
           <div class="w-full max-w-2xl absolute inset-x-0 -top-10 -mt-80 ml-80 ">
             {/* <img class=" w-72 h-2/4" src="imgs/form-pic1.jpg" /> */}
