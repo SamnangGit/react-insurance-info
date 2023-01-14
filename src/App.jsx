@@ -20,14 +20,14 @@ function App() {
         <MainPage />
       </div>
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <div>
           <Route exact path="/" component={CompanyDashboard} />
           <Route path="/assessment" component={AssessmentQ} />
           <Route path="/company/:id" component={CompanyDetail} />
           <Route path="/book" component={BookApointment} />
         </div>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   );
 }
