@@ -9,7 +9,7 @@ import CompanyDetail from "./components/CompanyDetail";
 
 import BookApointment from "./components/BookApointment";
 
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,18 +21,14 @@ function App() {
         <MainPage />
       </div>
 
-      {/* <BrowserRouter>
-        <div>
-          <Route exact path="/" component={CompanyDashboard} />
-          <Route path="/assessment" component={AssessmentQ} />
+      <BrowserRouter>
+        <Routes>
+          {/* <Route exact path="/" component={CompanyDashboard} /> */}
+          <Route path="/assessment" component={<AssessmentQ></AssessmentQ>} />
           <Route path="/company/:id" component={CompanyDetail} />
           <Route path="/book" component={BookApointment} />
-        </div>
-      </BrowserRouter> */}
-      <div className="my-8">
-        <CompanyDashboard />
-        <AssessmentQ />
-      </div>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
