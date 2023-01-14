@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import MainPage from "./components/MainPage";
 import CompanyDashboard from "./components/CompanyDashboard";
+import AssessmentQ from "./components/AssessmentQ";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       </div>
       <div className="my-8">
         <CompanyDashboard />
+        <AssessmentQ />
       </div>
     </>
   );
