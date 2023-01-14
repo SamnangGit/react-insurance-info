@@ -21,11 +21,69 @@ function CompanyDashboard() {
             <p></p>
             <p></p>
             <div className="flex flex-row justify-center items-center">
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+                <p className="text-s my-6 p-2 text-center">
+                  Smoking is very injurious to health. It is harmful both to a
+                  smoker and his companion. It affects lungs and causes serious
+                  diseases.
+                </p>
+                <img className="ml-28 w-32 pt-10" src="imgs/stars.jpeg" />
+              </div>
+              <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+                <p className="text-s my-6 p-2 text-center">
+                  Smoking is very injurious to health. It is harmful both to a
+                  smoker and his companion. It affects lungs and causes serious
+                  diseases.
+                </p>
+                <img className="ml-28 w-32 pt-10" src="imgs/stars.jpeg" />
+              </div>
+              <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+                <p className="text-s my-6 p-2 text-center">
+                  Smoking is very injurious to health. It is harmful both to a
+                  smoker and his companion. It affects lungs and causes serious
+                  diseases.
+                </p>
+                <img className="ml-28 w-32 pt-10" src="imgs/stars.jpeg" />
+              </div>
+              <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+                <p className="text-s my-6 p-2 text-center">
+                  Smoking is very injurious to health. It is harmful both to a
+                  smoker and his companion. It affects lungs and causes serious
+                  diseases.
+                </p>
+                <img className="ml-28 w-32 pt-10" src="imgs/stars.jpeg" />
+              </div>
+              <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+                <p className="text-s my-6 p-2 text-center">
+                  Smoking is very injurious to health. It is harmful both to a
+                  smoker and his companion. It affects lungs and causes serious
+                  diseases.
+                </p>
+                <img className="ml-28 w-32 pt-10" src="imgs/stars.jpeg" />
+              </div>
+              <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+                <p className="text-s my-6 p-2 text-center">
+                  Smoking is very injurious to health. It is harmful both to a
+                  smoker and his companion. It affects lungs and causes serious
+                  diseases.
+                </p>
+                <img className="ml-28 w-32 pt-10" src="imgs/stars.jpeg" />
+              </div>
+              <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+                <p className="text-s my-6 p-2 text-center">
+                  Smoking is very injurious to health. It is harmful both to a
+                  smoker and his companion. It affects lungs and causes serious
+                  diseases.
+                </p>
+                <img className="ml-28 w-32 pt-10" src="imgs/stars.jpeg" />
+              </div>
             </div>
           </div>
         </div>

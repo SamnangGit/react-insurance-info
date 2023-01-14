@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar";
 import MainPage from "./components/MainPage";
 import CompanyDashboard from "./components/CompanyDashboard";
 import AssessmentQ from "./components/AssessmentQ";
+import CompanyCard from "./components/CompanyCard";
+// import BookAppointment from "./components/BookApointment";
+import CompanyDetail from "./components/CompanyDetail";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +21,10 @@ function App() {
       <div className="my-8">
         <CompanyDashboard />
         <AssessmentQ />
+        {/* <CompanyCard /> */}
       </div>
+      {/* <BookAppointment /> */}
+      <CompanyDetail />
     </>
   );
 }
