@@ -1,4 +1,5 @@
 import React from "react";
+import CompanyDashboard from "./CompanyDashboard";
 
 function MainPage() {
   return (
@@ -32,7 +33,9 @@ function MainPage() {
           </button>
         </div>
       </div>
+      <CompanyDashboard/>
     </div>
+    
   );
 }
 

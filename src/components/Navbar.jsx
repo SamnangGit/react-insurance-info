@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="flex flex-row w-full justify-between font-Poppins text-white items-center py-2">
+    <div className=" bg-black flex flex-row w-full justify-between font-Poppins text-white items-center py-2">
       <div className="mx-16 w-3/12">
         <h1 className="hover:font-bold hover:text-sky-500 text-4xl transition-all duration-200 cursor-pointer">
           I4E
