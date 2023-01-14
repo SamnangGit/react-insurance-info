@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BookApointment() {
   return (
-    <div>
+    <div className="bg-white">
       <div class="relative">
         <img class="h-2/6" src="imgs/bg.jpg" />
         <h1 class="absolute text-5xl text-white inset-x-0 top-0 pt-80 ml-52 ">

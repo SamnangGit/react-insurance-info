@@ -2,8 +2,8 @@ import React from "react";
 
 function CompanyDetail() {
   return (
-    <div className="m-8">
-      <h1 className="font-Poppins text-5xl tracking-wider font-extrabold text-center mt-8 mb-24">
+    <div className="bg-white">
+      <h1 className="font-Poppins text-5xl tracking-wider font-extrabold text-center pt-8 mb-24">
         Detail
       </h1>
       <div className="flex flex-row">

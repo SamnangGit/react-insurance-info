@@ -15,22 +15,17 @@ function App() {
 
   return (
     <>
-      <div className="bg-black h-screen">
+      <div className="bg-black h-full">
         <Navbar />
-        <MainPage />
-      </div>
 
-      {/* <BrowserRouter>
-        <div>
-          <Route exact path="/" component={CompanyDashboard} />
-          <Route path="/assessment" component={AssessmentQ} />
-          <Route path="/company/:id" component={CompanyDetail} />
-          <Route path="/book" component={BookApointment} />
-        </div>
-      </BrowserRouter> */}
-      <div className="my-8">
-        <CompanyDashboard />
-        <AssessmentQ />
+        <BrowserRouter>
+          <Routes>
+            <Route exact path="/" element={<MainPage />} />
+            <Route path="/assessment" element={<AssessmentQ />} />
+            <Route path="/company/detail" element={<CompanyDetail />}></Route>
+            <Route path="/appointment" element={<BookApointment />} />
+          </Routes>
+        </BrowserRouter>
       </div>
     </>
   );

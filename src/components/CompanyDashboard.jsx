@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CompanyDashboard() {
   return (
-    <div>
+    <div className="bg-white my-28 pt-16">
       <div className="text-black font-Poppins mx-8">
         <h1 className="text-center text-4xl font-extrabold">
           Insurance Company
@@ -18,7 +19,9 @@ function CompanyDashboard() {
         <div className="flex flex-row justify-evenly items-center flex-wrap">
           <div className="flex flex-row justify-center items-center">
             <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
-              <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+              <Link to="/company/detail">
+                <img className="w-36 h-36 rounded-full" src="imgs/pic.jpeg" />
+              </Link>
               <p className="text-s my-6 p-2 text-center">
                 Smoking is very injurious to health. It is harmful both to a
                 smoker and his companion. It affects lungs and causes serious

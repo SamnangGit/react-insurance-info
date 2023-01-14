@@ -3,7 +3,7 @@ import React from "react";
 
 function AssessmentQ() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-white py-8">
       <h1 className="font-Poppins text-5xl tracking-wider font-extrabold text-center mt-8 mb-24">
         Asssement Test
       </h1>
