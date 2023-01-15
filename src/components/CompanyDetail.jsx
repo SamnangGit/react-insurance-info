@@ -48,6 +48,18 @@ function CompanyDetail() {
           >
             Learn More
           </button>
+          <button
+            className="bg-transparent border-white border-2 w-44 h-16 rounded-full font-Poppins text-xl text-center font-medium
+         hover:bg-slate-500 hover:text-white
+          transition  ease-in-out delay-150
+          transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
+          focus:outline-none focus:ring focus:ring-slate-300 focus:ring-opacity-80 my-4 block"
+            onClick={() => {
+              window.open("https://www.manulife.com.kh/content/dam/insurance/kh/documents/e-brochure/Manulife%20Camboida%20-%20Product%20Manulife%20Boribo.pdf");
+            }}
+          >
+            Download Broacher
+          </button>
         </div>
 
         <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
@@ -73,6 +85,18 @@ function CompanyDetail() {
           >
             Learn More
           </button>
+          <button
+            className="bg-transparent border-white border-2 w-44 h-16 rounded-full font-Poppins text-xl text-center font-medium
+         hover:bg-slate-500 hover:text-white
+          transition  ease-in-out delay-150
+          transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
+          focus:outline-none focus:ring focus:ring-slate-300 focus:ring-opacity-80 my-4 block"
+            onClick={() => {
+              window.open("https://www.manulife.com.kh/content/dam/insurance/kh/documents/e-brochure/Manulife%20Camboida%20-%20Product%20Manulife%20Boribo.pdf");
+            }}
+          >
+            Download Broacher
+          </button>
         </div>
 
         <div className="border-2 m-2 h-full w-3/12 p-6 rounded-md bg-white flex flex-col justify-center items-center">
@@ -94,6 +118,18 @@ function CompanyDetail() {
             }}
           >
             Learn More
+          </button>
+          <button
+            className="bg-transparent border-white border-2 w-44 h-16 rounded-full font-Poppins text-xl text-center font-medium
+         hover:bg-slate-500 hover:text-white
+          transition  ease-in-out delay-150
+          transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none
+          focus:outline-none focus:ring focus:ring-slate-300 focus:ring-opacity-80 my-4 block"
+            onClick={() => {
+              window.open("https://www.manulife.com.kh/content/dam/insurance/kh/documents/e-brochure/Manulife%20Camboida%20-%20Product%20Manulife%20Boribo.pdf");
+            }}
+          >
+            Download Broacher
           </button>
         </div>
       </div>

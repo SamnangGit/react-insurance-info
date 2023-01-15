@@ -7,11 +7,10 @@ function MainPage() {
     <div>
       <div className="w-full mt-28">
         <h1 className="text-white font-Poppins font-extrabold text-5xl mx-auto w-1/2 tracking-wider text-center">
-          We Ensure The Best Insurance Service
+          InsurFinder
         </h1>
         <h2 className=" text-white text-center font-Poppins text-xl w-1/2 mx-auto my-12 tracking-wider opacity-70 font-light">
-          We Want to make insurance service available to everyone in Cambodia.
-          We Want to make insurance service available to everyone in Cambodia.
+        We Ensure The Best Insurance Service
         </h2>
         <div className="flex flex-row justify-center items-center text-white">
           <Link to="/assessment">
